@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background: hsl(240, 6%, 7%);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+.container {
+    width: 36rem;
+    padding: 3.3rem;
+    text-align: center;
+    background: rgb(237, 241, 241);
+    margin-left: 33%;
+    margin-top: 3.2rem;
+    box-shadow: inset -.2rem .2rem .2rem rgb(94, 91, 91);
+}
+
+input {
+    background: rgb(245, 243, 244);
+    width: 27rem;
+    padding: .8rem;
+    border: .2rem solid hwb(240 5% 95%);
+    outline: none;
+    font-size: 2rem;
+}
+
+button {
+    display: inline-block;
+    padding: .5rem 1.2rem;
+    height: 4.3rem;
+    background: #1c1cf1;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(59, 62, 63);
+    font-size: 2rem;
+    color: #f6f7f9;
+    letter-spacing: .1rem;
+    font-weight: 300;
+}
+
+button:hover {
+    background: #fafbfd;
+    color: hsl(248, 92%, 53%);
+    box-shadow: none;
+}
+
+.newtasks ul {
+    position: relative;
+    background-color: #1742cd;
+    border: 0.2rem solid rgb(17, 41, 225);
+    color: white;
+    font-size: 1.9rem;
+    padding: .7rem;
+    text-align: left;
+}
+
+.newtasks ul i {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+
+@media(max-width :998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width :768px) {
+    html {
+        font-size: 45%;
+    }
+}
